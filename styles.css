@@ -25,6 +25,6 @@ img {
 
   width: calc(100% - 40px);
   height: calc(100% - 40px);
-  max-width: 40vw;
+  max-width: 60vw;
   object-fit: contain !important;
 }
