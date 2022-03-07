@@ -28,3 +28,17 @@ img {
   max-width: 60vw;
   object-fit: contain !important;
 }
+
+.customImg{  
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  max-width: 60vw;
+  object-fit: contain !important;
+}
