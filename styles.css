@@ -9,7 +9,7 @@ body {
 div {
   width: calc(100% - 40px);
   height: calc(100% - 40px);
-  background: #a8edb3;
+  background: #FAF9F6;
   overflow: hidden;
   margin: auto;
   display: flex;
