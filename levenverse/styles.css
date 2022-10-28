@@ -1,0 +1,44 @@
+body {
+  background: #FAF9F6;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  height: 100vh;
+}
+
+div {
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  background: #FAF9F6;
+  overflow: hidden;
+  margin: auto;
+  display: flex;
+}
+
+img {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  max-width: 60vw;
+  object-fit: contain !important;
+}
+
+.customImg{  
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: calc(100% - 100px);
+  height: calc(100% - 100px);
+  max-width: 30vw;
+  object-fit: contain !important;
+}
